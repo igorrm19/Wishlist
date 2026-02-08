@@ -30,16 +30,44 @@ body{
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 20px;
 }
 
 
 h1{
-    color: #fff;
+    color: #21580c;
     font-size: 24px;
     font-weight: 600;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.list-input{
+   padding: 10px;
+   border: none;
+   border-style: none;
+   margin: 2px;
+   border-radius: 5px;
+}
+
+.list-button{
+   background-color: #21580c;
+   color: #ffffff;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+}
+
+.list-button:hover{
+  background-color: #2f810e;
+}
+
+.list-container{
+    height: 150px;
+    width: 243px;
+    margin: 10px;
+    padding: 5px;
+    background-color: transparent;
 }
